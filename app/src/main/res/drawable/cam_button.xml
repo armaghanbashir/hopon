@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+
+            <item android:drawable="@drawable/rounded_button"
+                android:width="80dp"
+                android:height="80dp"/>
+            <item android:drawable="@drawable/ic_baseline_photo_camera_24"
+                android:height="50dp"
+                android:width="50dp"
+                android:gravity="center"
+                />
+
+
+        </layer-list>
+    </item>
+</selector>

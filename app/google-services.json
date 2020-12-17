@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "663802189172",
+    "project_id": "hopon-5a812",
+    "storage_bucket": "hopon-5a812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663802189172:android:23d2a83f42c9eb4b0cc821",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663802189172-uu1uf2og13f5m4msc7ukpeu27nrvp9vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test",
+            "certificate_hash": "01de0f87ef276c3d878bee430857d4d4d17ec5a8"
+          }
+        },
+        {
+          "client_id": "663802189172-qj3qugpnghoh3ftj4minl31765qpk639.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuyWSlrm3Z55egwGuYAwjkfLSvQ5DlYsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663802189172-qj3qugpnghoh3ftj4minl31765qpk639.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

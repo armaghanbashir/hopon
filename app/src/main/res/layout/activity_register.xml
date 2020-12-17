@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/userImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/placeholderpfp"
+            app:civ_border="true"
+            app:civ_border_width="3dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="20dp"
+
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/useremail"
+            android:layout_below="@+id/userImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#f0f0f0"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/prompt_email"
+            android:textColorHint="#BBB"
+            android:inputType="textEmailAddress"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:selectAllOnFocus="true" />
+
+        <EditText
+            android:layout_below="@id/useremail"
+            android:id="@+id/userphone"
+            android:textColorHint="#BBB"
+
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/rounded_corners"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:backgroundTint="#f0f0f0"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:selectAllOnFocus="true" />
+        <EditText
+            android:layout_below="@id/userphone"
+            android:id="@+id/userpassword"
+            android:textColorHint="#BBB"
+
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="7dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/rounded_corners"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:backgroundTint="#f0f0f0"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#ff7856"
+            android:text="REGISTER"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="90dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="#FFF" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
